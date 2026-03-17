@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+        
+           <div class="menu">
+               <!-- <div class="logo">
+                   <img src="./images/dashboardimages/Layer_1.png" alt=""> 
+               </div> -->
+               <ul class="menu-item">
+                 <li >
+                    <img src="./images/dashboardimages/grid.png" alt="" >
+                    Dashboard
+                 </li>
+                 <li>
+                    <img src="/images/dashboardimages/file-text.png" alt="">
+                    Post Management
+                 </li>
+                 <!-- <li>
+                    <img src="/images/dashboardimages/Huge-icon.png" alt="">
+                    Priority Management
+                 </li> -->
+                 <!-- <li>
+                    <img src="/images/dashboardimages/tool.png" alt="">
+                    Tools
+                 </li> -->
+                 <li>
+                    <img src="/images/dashboardimages/users.png" alt="">
+                    User Management
+                 </li>
+               </ul>
+           </div> 
+           <div class="logout">
+                <img src="./images/dashboardimages/Avatar.png" alt="">
+                <p>Logout</p>
+           </div>
+        </div>
+        <div class="story">
+            <ul>
+                <li>Add Post</li>
+                <li>View Post</li>
+                <li>View Schedule Post</li>
+                <!-- <li>E-Paper PDF List</li> -->
+                <!-- <li>Create Poll</li> -->
+                <li>Video List</li>
+                <!-- <li>Contact List</li> -->
+            </ul>
+        </div>
+
+      
+        <div class="table-container">
+           <div class="topbar">
+             <h2>View Story</h2>
+             <div class="search">
+                <input type="text"  placeholder="Search by Text or ID">
+                <i class="fa fa-search"></i>
+             </div>
+           </div>
+            <table >
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Author</th>
+                        <th>Title</th>
+                        <th>Approved By</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1998498</td>
+                        <td class="author">
+                            <img src="/images/dashboardimages/Photo by Furkanfdemir.png" alt="">
+                            
+                                Kianna Kenter
+                            
+                        </td>
+                        <td>
+                            <p>
+                                Noida Bank Employee Booked For Illicitly Transferring..
+                            </p>
+                            <p id="second-p">
+                                Published On : 03-Jan-2023 | 08:53am Updated On : 03-Jan-2023 | 08:53am
+                            </p>
+                        </td>
+                        <td>
+                            Kianna Kenter
+                        </td>
+                        <td>
+                        <span  id="publish"></span>  Published
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1998499</td>
+                        <td class="author">
+                            <img src="/images/dashboardimages/Photo by Gui França.png" alt="">
+                            
+                                Phillip Ekstrom
+                            
+                        </td>
+                        <td>
+                            <p>Dunki Release LIVE Updates: SRK Fans Call Film...</p>
+                            <p id="second-p">
+                                Published On : 06-Jan-2023 | 09:55am Updated On : 06-Jan-2023 | 10:25am
+                            </p>
+                        </td>
+                        <td>
+                            Phillip Ekstrom
+                        </td>
+                        <td >
+                        <span id="unpublish"></span>  Unpublished
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            19984100
+                        </td>
+                        <td class="author">
+                            <img src="/images/dashboardimages/Photo by Good Faces.png" alt="">
+                            
+                                Corey Bator
+                            
+                        </td>
+                        <td>
+                            <p>
+                                There’s A Message in The Suspension Spree...
+                            </p>
+                            <p id="second-p">
+                                Published On : 06-Jan-2023 | 09:46am Updated On : 06-Jan-2023 | 10:27am
+                            </p>
+                        </td>
+                        <td>
+                            Corey Bator
+                        </td>
+                        <td >
+                        <span id="publish"></span>  Published
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            19984101
+                        </td>
+                        <td class="author">
+                            <img src="/images/dashboardimages/Photo by Monstera.png" alt="">
+                            
+                                Omar Donin
+                            
+                        </td>
+                        <td>
+                            <p>
+                                How 150 Meetings by Amit Shah and 3,200 Suggestions...
+                            </p>
+                            <p id="second-p">
+                                Published On : 07-Jan-2023 | 08:53am Updated On : 07-Jan-2023 | 08:53am
+                            </p>
+                        </td>
+                        <td>
+                            Omar Donin
+                        </td>
+                        <td >
+                            <span id="unpublish"></span> Unpublished
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            19984102
+                        </td>
+                        <td class="author">
+                            <img src="/images/dashboardimages/Photo by Good Faces (1).png" alt="">
+                            
+                                Jocelyn Rosser
+                            
+                        </td>
+                        <td>
+                            <p>
+                                US Has Deepened Partnership with India': Blinken at Year...
+                            </p>
+                            <p id="second-p">
+                                Published On : 07-Jan-2023 | 08:53am Updated On : 07-Jan-2023 | 08:53am
+                            </p>
+                        </td>
+                        <td>
+                            Jocelyn Rosser
+                        </td>
+                        <td>
+                            <span id="publish"></span> Published
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>19984103</td>
+                        <td class="author">
+                            <img src="/images/dashboardimages/Photo by Naitian（Tony） Wang.png" alt="">
+                            Madelyn Gouse
+                        </td>
+                        <td>
+                            <p>
+                                Covid-19 LIVE: 2,669 Active Cases in India; 21 People...
+                            </p>
+                            <p id="second-p">
+                                Published On : 08-Jan-2023 | 08:53am Updated On : 08-Jan-2023 | 08:53am
+                            </p>
+                        </td>
+                        <td>
+                            Madelyn Gouse
+                        </td>
+                        <td>
+                            <span id="publish"></span> Published
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            19984104
+                        </td>
+                        <td class="author">
+                            <img src="/images/dashboardimages/Photo by Sirio.png" alt="">
+                            Jaxson Carder
+                        </td>
+                        <td>
+                            <p>
+                                No Paneer at Indian Wedding? Angry Guests Throw Chairs...
+                            </p>
+                            <p id="second-p">
+                                Published On : 08-Jan-2023 | 08:53am Updated On : 08-Jan-2023 | 08:53am
+                            </p>
+                        </td>
+                        <td>
+                            Jaxson Carder
+                        </td>
+                        <td>
+                            <span id="unpublish"></span> Unpublished
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>19984105</td>
+                        <td class="author">
+                            <img src="/images/dashboardimages/Photo by Anna Shvets.png" alt="">
+                            Giana Stanton
+                        </td>
+                        <td>
+                            <p>
+                                Delhi CM Arvind Kejriwal Responds to ED, Calls Summons...
+                            </p>
+                            <p id="second-p">
+                                Published On : 08-Jan-2023 | 08:53am Updated On : 08-Jan-2023 | 08:53am
+                            </p>
+                        </td>
+                        <td>
+                            Giana Stanton
+                        </td>
+                        <td>
+                            <span id="unpublish"></span> Unpublished
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            19984106
+                        </td>
+                        <td class="author">
+                            <img src="/images/dashboardimages/Photo by David Hurley.png" alt="">
+                            Kaylynn Bator
+                        </td>
+                        <td>
+                            <p>
+                                Disproportionate Assets Case: TN Minister Ponmudy, Wife...
+                            </p>
+                            <p id="second-p">
+                                Published On : 09-Jan-2023 | 08:53am Updated On : 09-Jan-2023 | 08:53am
+                            </p>
+                        </td>
+                        <td>
+                            Kaylynn Bator
+                        </td>
+                        <td>
+                            <span id="publish"></span> Published
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            19984107
+                        </td>
+                        <td class="author">
+                            <img src="/images/dashboardimages/Photo by Anna Shvets (1).png" alt="">
+                            Jocelyn Philips
+                        </td>
+                        <td>
+                            <p>Why Is Kerala at the Forefront Whenever There's A Surge...</p>
+                            <p id="second-p">Published On : 09-Jan-2023 | 08:53am Updated On : 09-Jan-2023 | 08:53am</p>
+                        </td>
+                        <td>
+                            Jocelyn Philips
+                        </td>
+                        <td>
+                            <span id="publish"></span> Published
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>19984108</td>
+                        <td class="author">
+                            <img src="/images/dashboardimages/Photo by Lucas Newton.png" alt="">
+                            Ruben Curtis
+                        </td>
+                        <td>
+                            <p>
+                                Tata Harrier and Safari Secure 5-Star Safety Rating...
+                            </p>
+                            <p id="second-p">
+                                Published On : 10-Jan-2023 | 08:53am Updated On : 11-Jan-2023 | 08:53am
+                            </p>
+                        </td>
+                        <td>
+                            Ruben Curtis
+                        </td>
+                        <td>
+                            <span id="publish"></span> Published
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
